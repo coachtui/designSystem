@@ -1,0 +1,125 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v28-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-200.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color:beige
+    
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    color:#080002
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.color-panel {
+    display: inline-block;
+    width:25%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.container{
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 20px;
+    color: gray;
+    background-color:azure
+}
+
+
+/*color blocks*/
+
+.color-panel.reddish{
+    background-color: #e64040;
+    border: 2px solid;
+    border-color:#080002;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}
+.color-panel.teal{
+    background-color: #40e6e6;
+    border: 2px solid;
+    border-color:#080002;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}
+
+.color-panel.green{
+    background-color: #25e63b;
+    border: 2px solid;
+    border-color:#080002;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}  
+
+.color-panel.orange{
+    background-color: #e69340;
+    border: 2px solid;
+    border-color:#080002;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}
+
+.color-panel.black{
+    background-color: #080002;
+    border: 2px solid;
+    border-color:#080002;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}
+
+.color-panel.blue{
+    background-color: #4040e6;border: 2px solid;
+    border-color: #080002;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 20px;
+    min-height: 100px;
+    border-radius: 20px;
+}
